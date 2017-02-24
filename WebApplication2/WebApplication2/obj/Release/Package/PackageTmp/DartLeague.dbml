@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="dartdb" Class="DartLeagueDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=dartsql.database.windows.net;Initial Catalog=dartdb;User ID=Sergio;Connect Timeout=60;Encrypt=False;TrustServerCertificate=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="dartdbConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Game" Member="Games">
+    <Type Name="Game">
+      <Column Name="rounds" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="bullsrounds" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="bulldarts" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="zerorounds" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="playerID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="gameID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Players" Member="Players">
+    <Type Name="Player">
+      <Column Name="PlayerID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PlayerName" Type="System.String" DbType="VarChar(25) NOT NULL" CanBeNull="false" />
+      <Column Name="TotGames" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

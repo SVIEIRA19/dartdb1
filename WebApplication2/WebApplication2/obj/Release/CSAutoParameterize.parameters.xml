@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-WebApplication2-20170201105109.mdf;Initial Catalog=aspnet-WebApplication2-20170201105109;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Sergio\\Source\\Repos\\dartdb1\\WebApplication2\\WebApplication2\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="dartdbConnectionString-Web.config Connection String" description="dartdbConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=VIEIRA-LAP\SQLEXPRESS;Initial Catalog=dartdb;User ID=sa;Password=Marcella24;Encrypt=False;TrustServerCertificate=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Sergio\\Source\\Repos\\dartdb1\\WebApplication2\\WebApplication2\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='dartdbConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="dartdbConnectionString1-Web.config Connection String" description="dartdbConnectionString1 Connection String used in web.config by the application to access the database." defaultValue="Data Source=dartsql.database.windows.net;Initial Catalog=dartdb;User ID=Sergio;Password=Vieira01;Connect Timeout=60;Encrypt=False;TrustServerCertificate=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Sergio\\Source\\Repos\\dartdb1\\WebApplication2\\WebApplication2\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='dartdbConnectionString1']/@connectionString" />
+  </parameter>
+</parameters>

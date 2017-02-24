@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DartLeague">
+  <DataContextMoniker Name="/DartLeagueDataContext" />
+  <nestedChildShapes>
+    <classShape Id="375299e6-ff4b-4ce9-8ca9-971fcfe64e25" absoluteBounds="1.375, 1.875, 2, 1.9631982421875">
+      <DataClassMoniker Name="/DartLeagueDataContext/Game" />
+      <nestedChildShapes>
+        <elementListCompartment Id="386fbfb7-58f9-4e61-a893-fb26864650c8" absoluteBounds="1.3900000000000001, 2.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1c1c7a28-6894-4c07-9881-8b90d40ab9d8" absoluteBounds="3.875, 1.875, 2, 1.3862939453125">
+      <DataClassMoniker Name="/DartLeagueDataContext/Player" />
+      <nestedChildShapes>
+        <elementListCompartment Id="39522056-6f40-4e70-a756-2db540d3ca83" absoluteBounds="3.8899999999999997, 2.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
